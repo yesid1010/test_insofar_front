@@ -1,6 +1,4 @@
 <template>
-  <h1 class="text-center">Listado de usuarios</h1>
-
   <div class="container mt-5">
     <table class="table table-striped table-sm">
       <thead>
@@ -20,7 +18,10 @@
           <td>
             <div class="row">
               <div class="col-md-4">
-                <button @click="editUser(user)" class="btn btn-warning">
+                <button
+                  @click="editUser(user)"
+                  class="btn btn-warning"
+                >
                   Editar
                 </button>
               </div>

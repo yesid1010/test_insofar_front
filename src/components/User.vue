@@ -13,12 +13,8 @@ export default defineComponent({
   name: "User",
   props: {
     user: Object,
-    index: String,
-  },
-
-  setup(props) {
-    console.log(props.index);
-  },
+    index: Number,
+  }
 });
 </script>
 

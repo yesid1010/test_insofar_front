@@ -1,5 +1,5 @@
 <template>
-  <Home msg="Hello Vue 3 + Vite" />
+  <Home/>
 </template>
 
 <script>
